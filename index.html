@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Aluraconf</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/speakers.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="main__menu">
+            <ul>
+                <li class="menu__item"><a href="#panel__about">Sobre</a></li>
+                <li class="menu__item"><a href="#panel__speakers">Palestrantes</a></li>
+            </ul>
+        </nav>
+        <div class="jumbotron">
+            <section class="panel__main">
+                <h1 class="title">ALURACONF</h1>
+                <h2 class="subtitle">30MAIO|RIO</h2>
+            </section>
+            <section class="panel__subscribe">
+                <a href="#panel__form" class="button">Inscreva-se</a>
+            </section>
+        </div>
+    </header>
+
+    <section id="panel__about" class="panel panel__about">
+        <div class="container">
+            <h2 class="title">Muito conteúdo: do frontend ao backend</h2>
+            <h3 class="subtitle">30 de Maio de 2017 - na Cidade Maravilhosa</h3>
+
+            <div class="about__description">
+                <p>
+                    Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolver mobile.
+                </p>
+                <p>
+                    É uma grande chance de ficar por dentro dos assuntos de Android, iOS, Web mobile, desenvolvimento híbrido, UX, além da parte
+                    backend com Rest, Microservices, e BigData. O desenvolvedor atualizado vai estar aqui.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="panel__speakers" class="panel panel__speakers" >
+        <div class="container">
+            <div class="about__speakers">
+                <h2 class="title">PALESTRANTES</h2>
+                <h3 class="subtitle">Aprenda com palestrantes que são referência no mercado</h3>
+            </div>
+
+            <ul class="speakers">
+
+                <li class="speaker">
+                    <figure class="speaker__portrait">
+                        <img class="speaker__image" src="img/palestrantes/placeholder.jpeg" alt="Foto do palestrante">
+                        <figcaption class="speaker__name">Debora Souza</figcaption>
+                        <p class="speaker__bio">Desenvolvedora Front-End Junior e Analista de Suporte Junior</p>
+                    </figure>
+                    <p class="speaker__speach">"Hoje é um dia excelente para que eu descubra meu potencial de vida e o use sem desperdício e sem excessos."</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker__portrait">
+                        <img class="speaker__image" src="img/palestrantes/placeholder.jpeg" alt="Foto do palestrante">
+                        <figcaption class="speaker__name">Debora Souza</figcaption>
+                        <p class="speaker__bio">Desenvolvedora Front-End Junior e Analista de Suporte Junior</p>
+                    </figure>
+                    <p class="speaker__speach">"Hoje é um dia excelente para que eu descubra meu potencial de vida e o use sem desperdício e sem excessos."</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker__portrait">
+                        <img class="speaker__image" src="img/palestrantes/placeholder.jpeg" alt="Foto do palestrante">
+                        <figcaption class="speaker__name">Debora Souza</figcaption>
+                        <p class="speaker__bio">Desenvolvedora Front-End Junior e Analista de Suporte Junior</p>
+                    </figure>
+                    <p class="speaker__speach">"Hoje é um dia excelente para que eu descubra meu potencial de vida e o use sem desperdício e sem excessos."</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker__portrait">
+                        <img class="speaker__image" src="img/palestrantes/placeholder.jpeg" alt="Foto do palestrante">
+                        <figcaption class="speaker__name">Debora Souza</figcaption>
+                        <p class="speaker__bio">Desenvolvedora Front-End Junior e Analista de Suporte Junior</p>
+                    </figure>
+                    <p class="speaker__speach">"Hoje é um dia excelente para que eu descubra meu potencial de vida e o use sem desperdício e sem excessos."</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker__portrait">
+                        <img class="speaker__image" src="img/palestrantes/placeholder.jpeg" alt="Foto do palestrante">
+                        <figcaption class="speaker__name">Debora Souza</figcaption>
+                        <p class="speaker__bio">Desenvolvedora Front-End Junior e Analista de Suporte Junior</p>
+                    </figure>
+                    <p class="speaker__speach">"Hoje é um dia excelente para que eu descubra meu potencial de vida e o use sem desperdício e sem excessos."</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker__portrait">
+                        <img class="speaker__image" src="img/palestrantes/placeholder.jpeg" alt="Foto do palestrante">
+                        <figcaption class="speaker__name">Debora Souza</figcaption>
+                        <p class="speaker__bio">Desenvolvedora Front-End Junior e Analista de Suporte Junior</p>
+                    </figure>
+                    <p class="speaker__speach">"Hoje é um dia excelente para que eu descubra meu potencial de vida e o use sem desperdício e sem excessos."</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="panel__form" class="panel__form">
+        <div class="container">
+            <h2 class="title">Seus dados</h2>
+            <form>
+                <div class="field">
+                    <label>Nome</label>
+                    <input class="field__input">
+                </div>
+                <div class="field">
+                    <label>E-mail</label>
+                    <input class="field__input"> 
+                </div>
+                <div class="button__place">
+                    <button class="button">REALIZAR INSCRIÇÃO</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
